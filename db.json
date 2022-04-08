@@ -1,7 +1,7 @@
 {
   "restaurants": [
     {
-      "name": "Park Hayath",
+      "name": "The Park",
       "id": 1,
       "cuisine": ["H B Biryani", "Natu kodi ulusu", "Pizza", "Masala Dosa"],
       "costForTwo": 360,
@@ -17,7 +17,7 @@
       "src": "https://www.linguahouse.com/linguafiles/md5/d01dfa8621f83289155a3be0970fb0cb"
     },
     {
-      "name": "Novatell",
+      "name": "Novotell",
       "id": 2,
       "cuisine": ["Kodi kura", "chicken 65", "Pizza", "soup"],
       "costForTwo": 600,
@@ -33,7 +33,7 @@
       "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Barbieri_-_ViaSophia25668.jpg"
     },
     {
-      "name": "Zomato",
+      "name": "The Grand",
       "id": 3,
       "cuisine": ["Rice", "Russian salad", "Pizza", "fried rice"],
       "costForTwo": 200,

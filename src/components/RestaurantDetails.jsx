@@ -38,12 +38,37 @@ export default function RestaurantDetails() {
 
   return (
     <div>
+		<h1>My Restaurant</h1>
+      
+      <div>
+        <button>4 and above</button>
+		<button>3 and above</button>
+		<button>2 and above</button>
+		<button>1 and above</button>
+      </div>
+
+      <div>
+        <button>Cash</button>
+		<button>Card</button>
+		<button>All</button>      
+      </div>
+
+      <div>
+        <button onClick={()=>handleescSort("price")}>asc</button>
+        <button onClick={()=>handleescSort("price",false)}>dsc</button>     
+      </div>
+
       {err && <div className="error"> Something went wrong! Try again </div>}
       <div>
         {data.map((item) => (
-          <div style={{ display: "flex", gap: "1rem" }} key={item.id}>
-            <div>{item.id}</div>
-            <div>{item.name}</div>
+          <div style={{ display: "flex", gap: "1rem", height: "300px", backgroundColor:"brown", marginTop:"30px" }} key={item.id}>
+            <div></div>
+			<img src={item.src} style={{height: "200px",width: "300px", marginTop:"30px"}} />
+            <div>
+				<h2>{item.name}</h2>
+				<p>{item.rating}</p>
+				<p></p>
+			</div>
           </div>
         ))}
       </div>

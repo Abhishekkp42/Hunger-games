@@ -8,7 +8,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Counter: {count}</h1>
       <RestaurantDetails />
     </div>
   )
